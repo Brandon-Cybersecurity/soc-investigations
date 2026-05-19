@@ -2,7 +2,7 @@
 
 This template is used for all SOC-style security investigations in this repository.
 
-It represents a consistent SOC workflow for triaging alerts, analyzing logs, and determining incident severity in alignment with organization-defined SOPs (or runbooks) and SLA-driven prioritization.
+It represents a consistent workflow for triaging alerts, analyzing logs, and determining incident severity in alignment with organization-defined SOPs (or runbooks) and SLA-driven prioritization.
 
 ---
 
@@ -10,7 +10,7 @@ It represents a consistent SOC workflow for triaging alerts, analyzing logs, and
 - What triggered the alert?
 - What user/system is involved?
 - Is this expected or unusual behavior?
-- Initial triage performed following SOC SOP guidelines
+- Initial triage performed following SOC procedures
 
 ---
 
@@ -30,7 +30,7 @@ It represents a consistent SOC workflow for triaging alerts, analyzing logs, and
 ---
 
 ## 4. Pattern Analysis
-- Is this single event or repeated behavior?
+- Is this a single event or repeated behavior?
 - Are there multiple IPs, devices, or locations?
 - Any escalation patterns?
 
@@ -54,17 +54,17 @@ It represents a consistent SOC workflow for triaging alerts, analyzing logs, and
 ## 7. Severity Assessment
 - Low / Medium / High / Critical
 - Justification based on impact and confidence
-- Severity aligned with SLA definitions where applicable
+- Severity aligned with SLA requirements where applicable
 
 ---
 
 ## 8. Recommended Actions
-- Account disable / reset password
+- Account disable / password reset
 - IP blocking
 - MFA enforcement
-- Escalation to IR team
+- Escalation to incident response team
 - Monitoring for recurrence
-- Actions executed or recommended in accordance with SOC SOPs
+- Actions executed or recommended in accordance with SOC procedures
 
 ---
 
@@ -75,16 +75,14 @@ It represents a consistent SOC workflow for triaging alerts, analyzing logs, and
 
 ---
 
-## 10. Operational Context (SOC I Perspective)
+## 10. Operational Context
 
-In SOC I environments, especially in MSSP settings, analysts often encounter a high volume of repetitive or similar alerts across multiple clients.
-
-Over time, many alerts may appear to be duplicates or low-risk events, which can contribute to alert fatigue if not managed carefully under SOC procedures.
+In SOC environments, analysts frequently encounter high volumes of alerts across multiple systems and clients. Many alerts may appear repetitive or low-risk, requiring effective prioritization to manage alert fatigue.
 
 Case handling and closure decisions should be based on:
 - Matching entities (user, IP, host, timestamp)
 - Confirming event correlation across logs
-- Verifying whether the alert is part of an existing known pattern or incident
-- Alignment with SOC SOP guidelines and escalation procedures
+- Determining whether the alert aligns with known patterns or existing incidents
+- Adherence to SOC procedures and escalation guidelines
 
-When uncertainty exists, escalation or additional validation is preferred over premature closure in accordance with standard SOC operating procedures.
+When uncertainty exists, escalation or additional validation is preferred over premature closure in accordance with standard SOC operating practices.
