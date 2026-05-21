@@ -111,4 +111,17 @@ Case handling decisions should consider:
 - Escalation guidelines and SOPs
 - Scope and operational impact
 
+## 13. Quick Investigation Reminders
+
+- Slow down before escalating
+- Validate before assuming compromise
+- Prioritize active threats over alert volume
+- Maintain visibility across open investigations
+- Avoid tunnel vision during active cases
+- Document findings as investigation progresses
+- Reconfirm scope when pivoting between entities
+- Escalate when confidence is low
+- Follow SOPs and escalation guidelines (know your client)
+- Investigation quality is more important than rushing queue closure
+
 When uncertainty exists, additional validation or escalation is preferred over premature closure.
