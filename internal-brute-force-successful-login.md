@@ -1,7 +1,7 @@
 # Incident 001 | PRIORITY: 3
 ## Access Control - T1110 Internal Brute Force with Successful Login
 
-Hello <Company Name>,
+Hello Company,
 
 ---
 
