@@ -45,8 +45,7 @@ This workflow is intended as a flexible investigation reference and does not rep
 ## 5. Pattern Analysis
 - Single event or repeated behavior?
 - Multiple IPs, devices, or locations?
-- Related escalation patterns?
-
+- Related suspicious activity patterns?
 ---
 
 ## 6. Potential Threat Scenarios
@@ -63,7 +62,7 @@ This workflow is intended as a flexible investigation reference and does not rep
 - Cross-log confirmation
 - Entity correlation
 - Behavioral consistency
-- Environmental context validation
+- Environmental context
 
 ---
 
@@ -119,7 +118,7 @@ Case handling decisions should consider:
 - Continue monitoring incoming alerts during investigations
 - Document findings as investigation progresses
 - Reassess scope when pivoting between entities
-- ## Escalate when confidence is low
+- Escalate when confidence is low
 - Follow SOPs and escalation guidelines (know your client)
 - Investigation quality is more important than rushing queue closure
 
