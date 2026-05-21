@@ -113,15 +113,24 @@ Case handling decisions should consider:
 
 ## 13. Quick Investigation Reminders
 
-- Slow down before escalating
-- Validate before assuming compromise
+- Focus on one investigative step at a time
+- Validate scope before expanding investigation
 - Prioritize active threats over alert volume
-- Maintain visibility across open investigations
-- Avoid tunnel vision during active cases
+- Continue monitoring incoming alerts during investigations
 - Document findings as investigation progresses
-- Reconfirm scope when pivoting between entities
-- Escalate when confidence is low
+- Reassess scope when pivoting between entities
+- ## Escalate when confidence is low
 - Follow SOPs and escalation guidelines (know your client)
 - Investigation quality is more important than rushing queue closure
 
 When uncertainty exists, additional validation or escalation is preferred over premature closure.
+
+## 14. High Priority Investigations
+
+High priority alerts are often escalated due to response urgency and operational impact rather than alert volume alone.
+
+- Know your client environment before starting shift
+- Create cases quickly and clearly
+- Keep communication concise and actionable
+- Review SOPs for client-specific escalation requirements
+- Follow up with SOC Lead or specialist when appropriate
