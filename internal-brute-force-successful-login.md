@@ -38,11 +38,7 @@ Log Source:
 
 Multiple failed authentication attempts were observed from the same internal origin host to the same impacted host, followed by successful authentication activity from the same origin host.
 
-Initial investigation identified:
-- 220 counts of "User Logon Failure"
-- 3 counts of "User Logon"
-
-The activity involved user "Josh" on host "HARCOMP001" impacting host "ARDVOMP775".
+Initial investigation identified 3 counts of "User Logon" followed by 220 counts of "User Logon Failure." The activity involved user "Josh" on host "HARCOMP001" impacting host "ARDVOMP775".
 
 A 24-hour pivot on the user account showed the user was disabled at approximately 1:30 AM CDT.
 
